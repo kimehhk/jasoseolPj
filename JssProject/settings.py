@@ -26,7 +26,7 @@ SECRET_KEY = 'jlcpjebmp-irw*13-e%2i2mjt@q*th^n1(xs%1ru3u%eknbg5('
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1']
+ALLOWED_HOSTS = []
 
 
 # Application definition

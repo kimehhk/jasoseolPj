@@ -10,7 +10,7 @@ def signup(request):
         if filled_form.is_valid():
             filled_form.save()
             return redirect('index')
-    return render(request, 'signup.html', {'regi_form' : form})
+    return render(request, 'registration/signup.html', {'regi_form' : form})
 
 class MyLoginView(LoginView):
     template_name = 'login.html'
